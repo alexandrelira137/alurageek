@@ -1,7 +1,19 @@
-<mat-toolbar>
-    <mat-toolbar-row class="toolbar">
-        <span>AluraGeek</span>
-        <span class="example-spacer"></span>
-        <button class="home_button" mat-stroked-button color="primary">Login</button>
-    </mat-toolbar-row>
+<mat-toolbar class="toolbar">
+    <span>Alura Geek</span>
+    <span class="space_toolbar"></span>
+    <div>
+        <button mat-stroked-button color="primary" class="login_button">Login</button>
+    </div>
 </mat-toolbar>
+
+<mat-toolbar class="toolbar2">
+    <div>
+        <p class="p_promo"><strong>Dezembro Promocional</strong></p>
+    
+        <p class="p_promo2">Produtos selecionados com <strong>33% de desconto.</strong></p>
+
+        <button mat-flat-button color="primary" class="consoles_button">Ver Consoles</button>    
+    </div>    
+</mat-toolbar>
+
+<app-live-list></app-live-list>
