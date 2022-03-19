@@ -1,19 +1,20 @@
 <mat-toolbar class="toolbar">
-    <span>Alura Geek</span>
-    <span class="space_toolbar"></span>
+    <img src="/assets/logo.jpg" class="img_logo">
+    <span class="text_logo"><strong><font color="#2A7AE4">Alura</font>Geek</strong></span>
+    <span class="space_toolbar">
+        <div id="div_busca"> 
+          <input type="text" id="txtBusca" placeholder="O que deseja encontrar?"/>            
+        </div>
+        <img src="/assets/lupa.jpg" class="lupa_img">
+    </span>
     <div>
         <button mat-stroked-button color="primary" class="login_button">Login</button>
     </div>
 </mat-toolbar>
-
-<mat-toolbar class="toolbar2">
-    <div>
-        <p class="p_promo"><strong>Dezembro Promocional</strong></p>
-    
-        <p class="p_promo2">Produtos selecionados com <strong>33% de desconto.</strong></p>
-
-        <button mat-flat-button color="primary" class="consoles_button">Ver Consoles</button>    
-    </div>    
-</mat-toolbar>
+  
+<section class="conteiner">
+    <img src="/assets/banner_promo.jpg" class="banner_promo">    
+    <button mat-flat-button color="primary" class="consoles_button">Ver Consoles</button>
+</section>    
 
 <app-live-list></app-live-list>
