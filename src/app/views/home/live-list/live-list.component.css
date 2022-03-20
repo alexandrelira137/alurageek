@@ -1,0 +1,35 @@
+.conteiner {
+    width: 1250px;
+    height: 300px;   
+    margin-left: 160px;
+    margin-right: auto;
+}
+
+.produtos {
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.produtos li {
+    display: inline-block;
+    vertical-align: top;
+    width: 176px;
+    margin-top: auto;
+    margin-right: 30px;
+    padding-right: 0px;
+}
+
+.produtos img {
+    width: 176px;
+    height: 174px;
+}
+
+.produtos h2 {
+    font-size: 14px;
+}
+
+.produtos p {
+    margin-top: 0;
+    margin-bottom: 1px;
+    font-size: 14px;
+}
