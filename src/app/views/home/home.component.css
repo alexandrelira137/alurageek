@@ -1,66 +1,6 @@
-.img_logo {
-    width: 40.02px;
-    height: 29.17px;
-}
 
-.text_logo {
-    width: 40.02px;
-    height: 29.17px;
-    padding-left: 4.99px;
-}
-
-#divBusca {
-    background-color:#2F4F4F;
-    border:solid 5px;
-    border-radius:20px;
-    width:300px;
-  }
-  
-#txtBusca {
-    position: absolute;
-    width: 390px;
-    height: 40px;
-    top: 37.5px;
-    left: 360px;
-    padding-left: 1%;
-    border:solid 0px;
-    border-radius:20px;
-    background: #F5F5F5;
-    font-size:14px;
-  }
-
-.lupa_img {
-    width: 17.05px;
-    height: 17.06px;
-    position: absolute;
-    left: 47%;
-    right: 16.47%;
-    top: 6.5%;
-}
-
-.toolbar {
-    background-color: rgb(255, 255, 255);
-    width: 100%px;
-    height: 115px;
-    padding-left: 160px;
-    padding-right: 160px;
-}
-
-.space_toolbar {
-    height: 100px;
-    flex: 1 1 auto;  
-}
-
-.login_button {
-    border:solid 1px;
-    border-color: #2A7AE4;
-    font-size: 15px;
-    width: 160px;
-    height: 55px;
-}
 
 .conteiner {
-    background-color: rgb(80, 197, 212);
     width: 100%;
     height: 352px;
     position: relative;

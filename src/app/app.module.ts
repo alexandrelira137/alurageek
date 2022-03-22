@@ -12,12 +12,16 @@ import { LiveListComponent } from './views/home/live-list/live-list.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './views/home/footer/footer.component';
+import { HeaderComponent } from './views/home/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    LiveListComponent
+    LiveListComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

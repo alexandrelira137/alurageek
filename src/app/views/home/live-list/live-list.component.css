@@ -1,6 +1,6 @@
 .conteiner {
     width: 1250px;
-    height: 300px;   
+    height: 240px;   
     margin-left: 160px;
     margin-right: auto;
 }
@@ -10,7 +10,7 @@
     padding-left: 0;
 }
 
-.produtos li {
+.conteiner li {
     display: inline-block;
     vertical-align: top;
     width: 176px;
@@ -21,22 +21,23 @@
     padding-right: 0px;
 }
 
-.produtos img {
+.conteiner img {
     width: 176px;
     height: 174px;
 }
 
-.produtos h2 {
+.conteiner h2 {
     font-size: 14px;
 }
 
-.produtos p {
+.conteiner p {
     margin-top: 0;
     margin-bottom: 1px;
     font-size: 14px;
 }
 
-.produtos a {
+.conteiner a {
+    text-decoration: none;
     color: #2A7AE4;
 }
 
@@ -49,6 +50,7 @@
 }
 
 .link_ver_tudo {
+    text-decoration: none;
     font-style: unset;
     color: #2A7AE4;
     position: absolute;
@@ -64,4 +66,30 @@
     margin-top: 2px;
     width: 16px;
     height: 16px;
+}
+
+.consoles {
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.img_consoles {
+    margin-top: 64px;
+    margin-bottom: 16px;
+    margin-left: 160px;
+    width: 9%;
+    height: 9%;
+}
+
+.diversos {
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.img_diversos {
+    margin-top: 64px;
+    margin-bottom: 16px;
+    margin-left: 160px;
+    width: 9%;
+    height: 9%;
 }
