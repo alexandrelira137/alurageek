@@ -14,6 +14,8 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './views/home/footer/footer.component';
 import { HeaderComponent } from './views/home/header/header.component';
+import { LoginComponent } from './views/login/login.component';
+import { ProdutosComponent } from './views/produtos/produtos.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { HeaderComponent } from './views/home/header/header.component';
     HomeComponent,
     LiveListComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    LoginComponent,
+    ProdutosComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,47 @@
+.bloco_login {
+    position: relative;
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 400px;
+    bottom: -31px;
+    margin-top: -31px;
+}
+
+.post {
+    display: inline-block;
+}
+
+.entrada_login {
+    border-radius: 5px;
+    width: 423px;
+    height: 50px;
+    position: absolute;
+    margin-left: 35%;
+    top: 110px;
+}
+
+.entrada_senha {
+    border-radius: 5px;
+    position: absolute;
+    width: 423px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 35%;
+    top: 145px;
+}
+
+.login_button {
+    width: 430px;
+    height: 50px;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 35%;
+    top: 141px;
+}
+
+.login_text {
+    font-size: 18px;
+    position: absolute;
+    margin-left: 45%;
+    top: 70px;
+}
