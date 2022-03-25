@@ -66,6 +66,10 @@
     margin-bottom: 14px;
 }
 
+li:hover {
+    font-size: 17px;
+}
+
 .footer2 {
     position: absolute;
     font-size: 16px;

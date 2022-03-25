@@ -16,6 +16,8 @@ import { FooterComponent } from './views/home/footer/footer.component';
 import { HeaderComponent } from './views/home/header/header.component';
 import { LoginComponent } from './views/login/login.component';
 import { ProdutosComponent } from './views/produtos/produtos.component';
+import { TodosOsProdutosComponent } from './views/todos-os-produtos/todos-os-produtos.component';
+import { CadastroComponent } from './views/cadastro/cadastro.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { ProdutosComponent } from './views/produtos/produtos.component';
     FooterComponent,
     HeaderComponent,
     LoginComponent,
-    ProdutosComponent
+    ProdutosComponent,
+    TodosOsProdutosComponent,
+    CadastroComponent,
   ],
   imports: [
     BrowserModule,

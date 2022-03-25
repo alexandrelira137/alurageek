@@ -1,0 +1,131 @@
+.todos_os_produtos_texto {
+    position: absolute;
+    font-size: 32px;
+    margin-left: 160px;
+    margin-top: 10px;
+}
+
+.add_button {
+    width: 164px;
+    height: 51px;
+    position: absolute;
+    margin-left: 1197px;
+    background-color: #2A7AE4;
+    margin-top: -5px;
+}
+
+.conteiner img {
+    width: 100%;
+}
+
+.banner_promo {
+    width: 1440px;
+    height: 352px;
+}
+
+.consoles_button {
+    position: absolute;
+    bottom: 32px;
+    left: 165px;
+    background: #2A7AE4;
+    font-size: 16px;
+    width: 130px;
+    height: 51px;        
+}
+
+.conteiner {
+    padding-top: 60px;
+    width: 1250px;
+    height: 240px;   
+    margin-left: 160px;
+    margin-right: auto;
+}
+
+.produtos {
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.conteiner li {
+    display: inline-block;
+    vertical-align: top;
+    width: 176px;
+    margin-top: auto;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-right: 30px;
+    padding-right: 0px;
+}
+
+.conteiner img {
+    width: 176px;
+    height: 174px;
+}
+
+.conteiner h2 {
+    font-size: 14px;
+}
+
+.conteiner p {
+    margin-top: 0;
+    margin-bottom: 1px;
+    font-size: 14px;
+}
+
+.conteiner a {
+    text-decoration: none;
+    color: #2A7AE4;
+}
+
+.img_produtos {
+    margin-top: 64px;
+    margin-bottom: 16px;
+    margin-left: 160px;
+    width: 9%;
+    height: 9%;
+}
+
+.link_ver_tudo {
+    text-decoration: none;
+    font-style: unset;
+    color: #2A7AE4;
+    position: absolute;
+    margin-left: 985px;
+    margin-top: 66px;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.img_ver_tudo {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 2px;
+    width: 16px;
+    height: 16px;
+}
+
+.consoles {
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.img_consoles {
+    margin-top: 64px;
+    margin-bottom: 16px;
+    margin-left: 160px;
+    width: 9%;
+    height: 9%;
+}
+
+.diversos {
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.img_diversos {
+    margin-top: 64px;
+    margin-bottom: 16px;
+    margin-left: 160px;
+    width: 9%;
+    height: 9%;
+}

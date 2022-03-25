@@ -1,0 +1,21 @@
+<app-header></app-header>
+
+<mat-toolbar class="bloco_add">
+    <div class="add">
+        <h1 class="add_text">Adicionar novo produto</h1>
+
+          <a href=""><img src="/assets/addimg.jpg" class="add_img"></a>
+          <button mat-stroked-button color="primary" class="procure">Procure no computador</button>
+
+          <p class="procure_text">Ou</p>
+          
+          <form method="post">
+              <input type="text" name="u" placeholder="Nome do produto" required="required" class="nome_produto" />
+              <input type="number" name="u" placeholder="Preço do produto" required="required" class="preco_produto" />
+              <input type="text" name="p" placeholder="Descrição do produto" required="required" class="descricao_produto" />
+              <button mat-flat-button color="primary" class="add_button">Adicionar produto</button>
+
+          </form>
+    </div>
+</mat-toolbar>
+<app-footer></app-footer>
